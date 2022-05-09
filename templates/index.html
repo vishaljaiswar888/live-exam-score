@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Exam Score</title>
+    <link rel="icon" type="image/x-icon" href="static/assets/img/favicon.png">
+</head>
+<body>
+
+    <h1 style="color:black;font-size:60px;" >Predict Your Exam Score!</h1>
+    <p style="color:black;font-size:40px;">
+        Enter the number of hours you studied.
+    </p>
+    <form action="/" method="post">
+        <input style="font-size:30px;" type="number" name="hrs" placeholder="Number of hours studied?">
+        <input style="font-size:30px;" type="submit">
+    </form>
+
+        <p style="color:blue;font-size:40px;">Your predicted exam score is: {{my_marks}}</p> 
+        
+</body>
+</html>
